@@ -22,4 +22,4 @@ n = int(input("How Many Pages Of Website(http://www.spit.ac.in/news-events/) You
 for i in range(1, n + 1):
     print('<------------Page ' + str(i) + ' Announcements------------>\n')
     get_announcements(i)
-    print('\n')
+    print('\n\n')
